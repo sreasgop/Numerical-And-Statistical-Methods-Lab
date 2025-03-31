@@ -7,7 +7,7 @@ x     1 2  3  4  5   6   7   8
  f(x) 1 8 27 64 125 216 343 512
  File created by: Dr. Suddhyashil Sarkar */
 
- #include <stdio.h>
+#include <stdio.h>
 
 long factorial(int n) {
     long fact = 1;
@@ -51,3 +51,17 @@ int main() {
     printf("f(%.1f) = %.3f", X, Y);
     return 0;
 }
+
+// OUTPUT:
+// Enter the number of arguments: 8
+// X       Y
+// 1       1
+// 2       8
+// 3       27
+// 4       64
+// 5       125
+// 6       216
+// 7       343
+// 8       512
+// Enter the value of x for which y is to be found: 7.5
+// f(7.5) = 421.875

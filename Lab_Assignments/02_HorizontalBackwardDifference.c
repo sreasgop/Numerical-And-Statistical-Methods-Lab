@@ -29,3 +29,19 @@ int main() {
     }
     return 0;
 }
+
+// OUTPUT:
+// Enter the number of arguments: 5
+// X       Y
+// 0       1
+// 1       3
+// 2       9
+// 3       31
+// 4       81
+
+// **********Backward Difference Table**********
+//         0       1
+//         1       3       2
+//         2       9       6       4
+//         3       31      22      16      12
+//         4       81      50      28      12      0
