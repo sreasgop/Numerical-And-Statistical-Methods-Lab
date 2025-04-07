@@ -1,5 +1,5 @@
+// CODE:
 #include <stdio.h>
-
 #define MAX 20
 
 int factorial(int n) {
@@ -45,3 +45,17 @@ int main() {
 
     return 0;
 }
+
+
+
+// OUTPUT:
+// Enter number of data points: 6
+// X       sin X
+// 15      0.2588190
+// 20      0.3420201
+// 25      0.4226183
+// 30      0.5
+// 35      0.5735764
+// 40      0.6427876
+// Enter the value of x to find sin(x): 38
+// Estimated value of sin(38.00 degree) is 0.6156615

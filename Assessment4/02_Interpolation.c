@@ -1,3 +1,4 @@
+// CODE:
 #include <stdio.h>
 
 #define MAX 20
@@ -45,3 +46,16 @@ int main() {
 
     return 0;
 }
+
+
+
+// OUTPUT:
+// Enter number of data points: 5
+// X       Y
+// 0.00    1.0000
+// 0.10    1.2214
+// 0.20    1.4918
+// 0.30    1.8221
+// 0.40    2.2255
+// Enter the value of x to evaluate y = e^(2x): 0.05
+// Estimated value of e^(2*0.05) is 1.1052

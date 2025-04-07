@@ -1,3 +1,4 @@
+// CODE:
 #include <stdio.h>
 
 #define MAX 20
@@ -35,3 +36,15 @@ int main() {
 
     return 0;
 }
+
+
+
+// OUTPUT:
+// Enter number of data points: 4
+// X       Y
+// -1      -1
+// -2      -9
+// 2       11
+// 4       69
+// Enter value of x to find f(x): 0
+// Estimated value of f(0) is 1
