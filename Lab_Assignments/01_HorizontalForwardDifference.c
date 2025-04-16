@@ -1,9 +1,13 @@
+// QUESTION:
 /* Write a C program to construct a horizontal forward difference
  table corresponding to the following data
  x 0 1 2 3 4
  y 1 3 9 31 81
  File created by: Dr. Suddhyashil Sarkar */
 
+
+
+// CODE:
 #include <stdio.h>
 int main() {
     int n, i, j;
@@ -34,6 +38,8 @@ int main() {
 
     return 0;
 }
+
+
 
 // Output: 
 // **********Horizontal Forward Difference Table**********

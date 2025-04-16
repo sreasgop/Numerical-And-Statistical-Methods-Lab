@@ -1,9 +1,13 @@
+// QUESTION:
 /* Write a C program to find f(10.7) using Lagrange's interpolation
 formula having given:
 x       10.5        10.6        10.8        10.9        11.1        11.4
 f(x)    0.26969     0.33839     0.39544     0.40022     0.38332     0.32257
 File created by: Dr. Suddhyashil Sarkar */
 
+
+
+// CODE:
 #include <stdio.h>
 int main()
 {
@@ -33,6 +37,8 @@ int main()
     printf("\nf(%.1f) = %.5f", X, Y);
     return 0;
 }
+
+
 
 // Output: 
 // Enter the number of arguments: 6

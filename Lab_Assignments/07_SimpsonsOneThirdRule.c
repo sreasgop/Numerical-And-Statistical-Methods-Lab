@@ -1,8 +1,12 @@
+// QUESTION:
 /* Write a C program to integrate 1/(1+x^2)
 in between limits 0 to 1 by Simpson's one-third rule,
  taking 4 sub-intervals correct upto 4 decimal places.
  File created by: Dr. Suddhyashil Sarkar.*/
 
+
+
+// CODE:
 #include <stdio.h>
 
 float f(float x) {
@@ -41,6 +45,8 @@ int main() {
     }
     return 0;
 }
+
+
 
 // OUTPUT: 
 

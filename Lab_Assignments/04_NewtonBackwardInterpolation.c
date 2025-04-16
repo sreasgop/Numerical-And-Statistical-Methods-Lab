@@ -1,12 +1,16 @@
 // This Program is not to be added to the Numerical Methods Lab File.
 // This assignment was done in an online class and it was supposed to be submitted to DigiCampus.
 
+// QUESTION:
 /* Write a C program to find f(7.5) using suitable interpolation formula
  corresponding to the following data:
 x     1 2  3  4  5   6   7   8
  f(x) 1 8 27 64 125 216 343 512
  File created by: Dr. Suddhyashil Sarkar */
 
+
+
+// CODE:
 #include <stdio.h>
 
 long factorial(int n) {
@@ -51,6 +55,8 @@ int main() {
     printf("f(%.1f) = %.3f", X, Y);
     return 0;
 }
+
+
 
 // OUTPUT:
 // Enter the number of arguments: 8

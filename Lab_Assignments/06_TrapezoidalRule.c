@@ -1,8 +1,12 @@
+// QUESTION:
 /* Write a C program to integrate 1/(1+x^2)
 in between limits 0 to 1 by Trapezoidal Rule,
  taking 5 sub-intervals correct upto 4 decimal places.
  File created by: Dr. Suddhyashil Sarkar.*/
 
+
+
+// CODE:
 #include <stdio.h>
 
 float f(float x) {
@@ -37,6 +41,8 @@ int main() {
     printf("\n Required integral by Trapezoidal Rule is: %.4f", ans);
     return 0;
 }
+
+
 
 // OUTPUT: 
 // Enter the lower limit of integration: 0

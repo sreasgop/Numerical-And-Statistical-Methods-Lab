@@ -1,9 +1,13 @@
+// QUESTIONS:
 /* Write a C program to construct a horizontal backward difference
  table corresponding to the following data
  x 0 1 2 3 4
  y 1 3 9 31 81
- File created by: Dr. Suddhyashil Sarkar */
+ File created by: Dr. Suddhyashil Sarkar*/
 
+
+
+// CODE:
 #include <stdio.h>
 int main() {
 
@@ -29,6 +33,8 @@ int main() {
     }
     return 0;
 }
+
+
 
 // OUTPUT:
 // Enter the number of arguments: 5

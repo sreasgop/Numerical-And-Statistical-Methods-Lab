@@ -1,3 +1,11 @@
+// QUESTION:
+/* Write a C program to find a root of the equation 10^x+x-4=0 
+ in between 0.5 and 0.6 by Bisection method correct upto 4 decimal places.
+*/
+
+
+
+// CODE:
 #include<stdio.h>
 #include<math.h>
 
@@ -38,6 +46,16 @@ int main(){
         }
     }
     
-    printf("\n The required root is %.4f",x[n+1]);
+    printf("\nThe required root is %.4f",x[n+1]);
     return 0;
 }
+
+
+
+// OUTPUT:
+/*
+Enter the values of a and b respectively:
+0.5     0.6
+
+The required root is 0.5392
+*/
