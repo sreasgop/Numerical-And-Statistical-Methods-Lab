@@ -1,3 +1,10 @@
+// QUESTION: 
+// Write a C program to find f(0) given the following table: 
+// x    -1    -2     2    4
+// f(x) -1    -9    11    69
+
+
+
 // CODE:
 #include <stdio.h>
 #define MAX 20
