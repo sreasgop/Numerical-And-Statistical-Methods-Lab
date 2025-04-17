@@ -1,13 +1,12 @@
 // CODE:
 #include <stdio.h>
-
 #define MAX 20
 
 int main() {
     int n;
     int x[MAX], y[MAX][MAX], value, result;
 
-    printf("Enter number of data points: ");
+    printf("\nEnter number of data points: ");
     scanf("%d", &n);
 
     printf("X\tY\n");
@@ -16,7 +15,7 @@ int main() {
         scanf("%d", &y[i][0]);
     }
 
-    printf("Enter value of x to find f(x): ");
+    printf("\nEnter value of x to find f(x): ");
     scanf("%d", &value);
 
     for (int i = 1; i < n; i++)
@@ -46,5 +45,6 @@ int main() {
 // -2      -9
 // 2       11
 // 4       69
+
 // Enter value of x to find f(x): 0
 // Estimated value of f(0) is 1

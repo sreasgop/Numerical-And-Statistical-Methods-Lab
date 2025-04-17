@@ -1,3 +1,16 @@
+// QUESTION: 
+// Values of x (in degrees) and sin x is given in the following 
+// table: 
+// x    sin x 
+// 15   0.2588190 
+// 20   0.3420201 
+// 25   0.4226183 
+// 30   0.5 
+// 35   0.5735764 
+// 40   0.6427876 
+// Write a C program to determine the value of sin 38 degrees.
+
+
 // CODE:
 #include <stdio.h>
 #define MAX 20
@@ -11,19 +24,20 @@ int factorial(int n) {
 
 int main() {
     int n;
-    float x[MAX], y[MAX][MAX], value, h, u, sum;
+    int x[MAX], value;
+    float y[MAX][MAX], h, u, sum;
 
-    printf("Enter number of data points: ");
+    printf("\nEnter number of data points: ");
     scanf("%d", &n);
 
     printf("X\tsin X\n");
     for (int i = 0; i < n; i++){
-        scanf("%f", &x[i]);
+        scanf("%d", &x[i]);
         scanf("%f", &y[i][0]);
     }
 
-    printf("Enter the value of x to find sin(x): ");
-    scanf("%f", &value);
+    printf("\nEnter the value of x to find sin(x): ");
+    scanf("%d", &value);
 
     h = x[1] - x[0];
     u = (value - x[0]) / h;
@@ -41,7 +55,7 @@ int main() {
         sum += (u_term * y[0][i]) / factorial(i);
     }
 
-    printf("Estimated value of sin(%.2f degree) is %.7f\n", value, sum);
+    printf("Estimated value of sin(%d degree) is %.7f\n", value, sum);
 
     return 0;
 }
@@ -57,5 +71,7 @@ int main() {
 // 30      0.5
 // 35      0.5735764
 // 40      0.6427876
+
 // Enter the value of x to find sin(x): 38
-// Estimated value of sin(38.00 degree) is 0.6156615
+// Estimated value of sin(38 degree) is 0.6156615
+

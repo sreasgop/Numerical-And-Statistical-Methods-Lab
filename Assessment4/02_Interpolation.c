@@ -1,3 +1,11 @@
+// QUESTION: 
+// Write a C program to evaluate 𝑦 = 𝑒 for x=0.05, using the 
+// following values: 
+// x           0.00     0.10     0.20     0.30     0.40
+// y = 𝑒 ^2x   1.0000   1.2214   1.4918   1.8221   2.2255 
+
+
+
 // CODE:
 #include <stdio.h>
 
@@ -14,7 +22,7 @@ int main() {
     int n;
     float x[MAX], y[MAX][MAX], value, h, u, sum;
 
-    printf("Enter number of data points: ");
+    printf("\nEnter number of data points: ");
     scanf("%d", &n);
 
     printf("X\tY\n");
@@ -23,7 +31,7 @@ int main() {
         scanf("%f", &y[i][0]);
     }
 
-    printf("Enter the value of x to evaluate y = e^(2x): ");
+    printf("\nEnter the value of x to evaluate y = e^(2x): ");
     scanf("%f", &value);
 
     h = x[1] - x[0];
@@ -57,5 +65,6 @@ int main() {
 // 0.20    1.4918
 // 0.30    1.8221
 // 0.40    2.2255
+
 // Enter the value of x to evaluate y = e^(2x): 0.05
 // Estimated value of e^(2*0.05) is 1.1052
