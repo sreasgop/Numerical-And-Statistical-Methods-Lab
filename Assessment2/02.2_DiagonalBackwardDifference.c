@@ -1,6 +1,5 @@
 // (Diagonal Backward Difference Table)
 // CODE:
-
 #include <stdio.h>
 int main()
 {
@@ -66,4 +65,24 @@ int main()
     return 0;
 }
 
+
+
 // OUTPUT:
+// Enter the number of arguments: 5
+// X       Y
+// 0       1
+// 1       3
+// 2       9
+// 3       31
+// 4       81
+
+// ********** Diagonal Backward Difference Table **********
+// 0       1
+//                         50
+// 1       3                       28
+//                         22              12
+// 2       9                       16                      0
+//                         6               12
+// 3       31                      4
+//                         2
+// 4       81

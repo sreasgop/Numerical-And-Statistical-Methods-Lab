@@ -1,9 +1,10 @@
 /* 2. Write a C program to construct the diagonal forward and backward difference table.
 */
 
+
+
 // (Diagonal Forward Difference Table)
 // CODE:
-
 #include <stdio.h>
 
 int main() {
@@ -36,7 +37,7 @@ int main() {
             if (i_prev >= 0 && (i_prev + j) < n) {
                 printf("\t\t\t%d", y[i_prev][j]);
             } else {
-                printf("\t");
+                printf("\t\t");
             }
         }
         printf("\n");
@@ -68,14 +69,16 @@ int main() {
     return 0;
 }
 
+
+
 // OUTPUT: 
 // Enter the number of data points: 5
 // X       Y
-// 0 1
-// 1 3
-// 2 9
-// 3 31
-// 4 81 
+// 0       1
+// 1       3
+// 2       9
+// 3       31
+// 4       81
 
 // ********** Diagonal Forward Difference Table **********
 // 0       1
